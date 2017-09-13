@@ -10,11 +10,11 @@ headers = { 'Referer': 'http://www2.correios.com.br/sistemas/rastreamento/defaul
 
 html = requests.post(url, data=params, headers=headers)
 
-while True:
-    soup = BeautifulSoup(html.text, 'html.parser')
-    text = soup.strong.text.encode('utf-8')
+soup = BeautifulSoup(html.text, 'html.parser')
+text = soup.strong.text.encode('utf-8')
 
-    myLcd = lcd.Jhd1313m1(0, 0x3E, 0x62)
-    myLcd.write(text)
-    time.sleep(2)
-    myLcd.clear()
+myLcd = lcd.Jhd1313m1(0, 0x3E, 0x62)
+myLcd.write(text)
+
+while True:
+    time.sleep(100)
