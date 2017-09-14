@@ -15,10 +15,10 @@ Exemplos simples de aplicações de raspagem de dados utilizando a placa Intel E
 Acesse o Edison
 
 ```
-# Substitua 'edison-nomedasuaplaca' pelo nome da sua placa
-$ ssh root@edison-nomedasuaplaca.local
+# Substitua 'edison-lmayra' pelo nome da sua placa
+$ ssh root@edison-lmayra.local
 ```
->É importante notar que para acessar sua placa através do SSH é necessário que a mesma esteja conectada a uma rede WiFi!
+É importante notar que para acessar sua placa através do SSH é necessário que ela esteja conectada a internet! Seja através de uma rede WiFi ou Ethernet!
 
 Faça o clone do projeto e acesse a pasta recém-criada
 
