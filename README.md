@@ -1,8 +1,8 @@
 # Raspagem IoT
 
-Exemplos simples de aplicaÁıes de raspagem de dados utilizando a placa Intel Edison.
+Exemplos simples de aplica√ß√µes de raspagem de dados utilizando a placa Intel Edison.
 
-## PrÈ-requisitos
+## Pr√©-requisitos
 - [Python 2.7](https://www.python.org/downloads/release/python-2713/)
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup)
 - [requests](https://github.com/requests/requests)
@@ -10,16 +10,17 @@ Exemplos simples de aplicaÁıes de raspagem de dados utilizando a placa Intel Edi
 - [Kit Intel Edison para Arduino](https://www.intel.com.br/content/www/br/pt/products/boards-kits/edison/kit-for-arduino.html)
 - [Grove - Starter Kit Plus Gen 2](https://www.seeedstudio.com/Grove-starter-kit-plus-Intel-IoT-Edition-for-Intel-Galileo-Gen-2-and-Edison-p-1978.html)
 
-## InstalaÁ„o
+## Instala√ß√£o
 
 Acesse o Edison
 
 ```
-# Substitua edison-lmayra pelo nome da sua placa
-$ ssh root@edison-lmayra.local
+# Substitua 'edison-nomedasuaplaca' pelo nome da sua placa
+$ ssh root@edison-nomedasuaplaca.local
 ```
+>√â importante notar que para acessar sua placa atrav√©s do SSH √© necess√°rio que a mesma esteja conectada a uma rede WiFi!
 
-FaÁa o clone do projeto e acesse a pasta recÈm-criada
+Fa√ßa o clone do projeto e acesse a pasta rec√©m-criada
 
 ```
 # git clone git@github.com:lidimayra/raspagem-iot.git && cd raspagem-iot
