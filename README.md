@@ -18,7 +18,7 @@ Acesse o Edison
 # Substitua 'edison-lmayra' pelo nome da sua placa
 $ ssh root@edison-lmayra.local
 ```
-É importante notar que para acessar sua placa através do SSH é necessário que ela esteja conectada a internet! Seja através de uma rede WiFi ou Ethernet!
+É importante notar que para acessar sua placa através do SSH é necessário que ela esteja conectada a internet!
 
 Faça o clone do projeto e acesse a pasta recém-criada
 
@@ -26,9 +26,11 @@ Faça o clone do projeto e acesse a pasta recém-criada
 # git clone git@github.com:lidimayra/raspagem-iot.git && cd raspagem-iot
 ```
 
-Execute o exemplo desejado
+O único script existente até o momento é um rastreador do sistema dos correios que exibe o status da encomenda no LCD.
+
+Execute o script passando como parâmetro o número do pedido de rastreamento:
 
 ```
-python script.py
+# python script.py SS123456789BR
 ```
 
