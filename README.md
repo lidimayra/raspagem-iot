@@ -2,6 +2,8 @@
 
 Exemplos simples de aplicações de raspagem de dados utilizando a placa Intel Edison.
 
+<img src="edison.jpg" style="height: 200px;"/>
+
 ## Pré-requisitos
 - [Python 2.7](https://www.python.org/downloads/release/python-2713/)
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup)
@@ -18,7 +20,7 @@ Acesse o Edison
 # Substitua 'edison-lmayra' pelo nome da sua placa
 $ ssh root@edison-lmayra.local
 ```
-É importante notar que para acessar sua placa através do SSH é necessário que ela esteja conectada a internet!
+Informações referentes à configuração inicial da placa podem ser encontradas na [Wiki](https://github.com/lidimayra/raspagem-iot/wiki/Setup).
 
 Faça o clone do projeto e acesse a pasta recém-criada
 
