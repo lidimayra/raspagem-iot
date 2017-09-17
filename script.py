@@ -1,11 +1,12 @@
 from upm import pyupm_jhd1313m1 as lcd
 from bs4 import BeautifulSoup
 import requests
+import sys
 import time
 
 url = 'http://www2.correios.com.br/sistemas/rastreamento/resultado.cfm'
 
-params = { 'objetos': 'codigo-de-rastreamento' }
+params = { 'objetos': sys.argv[1] }
 headers = { 'Referer': 'http://www2.correios.com.br/sistemas/rastreamento/default.cfm' }
 
 while True:
